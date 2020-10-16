@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846E95A62537E1AF0050F8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E95A52537E1AF0050F8C1 /* AppDelegate.swift */; };
+		846E95A82537E1AF0050F8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E95A72537E1AF0050F8C1 /* SceneDelegate.swift */; };
+		846E95AA2537E1AF0050F8C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E95A92537E1AF0050F8C1 /* ViewController.swift */; };
+		846E95AD2537E1AF0050F8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E95AB2537E1AF0050F8C1 /* Main.storyboard */; };
+		846E95AF2537E1B00050F8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E95AE2537E1B00050F8C1 /* Assets.xcassets */; };
+		846E95B22537E1B00050F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E95B02537E1B00050F8C1 /* LaunchScreen.storyboard */; };
+		846E95BD2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E95BC2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.swift */; };
+		846E95C82537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E95C72537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846E95B92537E1B10050F8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846E959A2537E1AF0050F8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846E95A12537E1AF0050F8C1;
+			remoteInfo = BaiTapKhoaHocOline;
+		};
+		846E95C42537E1B10050F8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846E959A2537E1AF0050F8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846E95A12537E1AF0050F8C1;
+			remoteInfo = BaiTapKhoaHocOline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846E95A22537E1AF0050F8C1 /* BaiTapKhoaHocOline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiTapKhoaHocOline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846E95A52537E1AF0050F8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846E95A72537E1AF0050F8C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		846E95A92537E1AF0050F8C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846E95AC2537E1AF0050F8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846E95AE2537E1B00050F8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846E95B12537E1B00050F8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846E95B32537E1B00050F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E95B82537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiTapKhoaHocOlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846E95BC2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTapKhoaHocOlineTests.swift; sourceTree = "<group>"; };
+		846E95BE2537E1B10050F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E95C32537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiTapKhoaHocOlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846E95C72537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiTapKhoaHocOlineUITests.swift; sourceTree = "<group>"; };
+		846E95C92537E1B10050F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846E959F2537E1AF0050F8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E95B52537E1B10050F8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E95C02537E1B10050F8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846E95992537E1AF0050F8C1 = {
+			isa = PBXGroup;
+			children = (
+				846E95A42537E1AF0050F8C1 /* BaiTapKhoaHocOline */,
+				846E95BB2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests */,
+				846E95C62537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests */,
+				846E95A32537E1AF0050F8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846E95A32537E1AF0050F8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846E95A22537E1AF0050F8C1 /* BaiTapKhoaHocOline.app */,
+				846E95B82537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.xctest */,
+				846E95C32537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846E95A42537E1AF0050F8C1 /* BaiTapKhoaHocOline */ = {
+			isa = PBXGroup;
+			children = (
+				846E95A52537E1AF0050F8C1 /* AppDelegate.swift */,
+				846E95A72537E1AF0050F8C1 /* SceneDelegate.swift */,
+				846E95A92537E1AF0050F8C1 /* ViewController.swift */,
+				846E95AB2537E1AF0050F8C1 /* Main.storyboard */,
+				846E95AE2537E1B00050F8C1 /* Assets.xcassets */,
+				846E95B02537E1B00050F8C1 /* LaunchScreen.storyboard */,
+				846E95B32537E1B00050F8C1 /* Info.plist */,
+			);
+			path = BaiTapKhoaHocOline;
+			sourceTree = "<group>";
+		};
+		846E95BB2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				846E95BC2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.swift */,
+				846E95BE2537E1B10050F8C1 /* Info.plist */,
+			);
+			path = BaiTapKhoaHocOlineTests;
+			sourceTree = "<group>";
+		};
+		846E95C62537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846E95C72537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.swift */,
+				846E95C92537E1B10050F8C1 /* Info.plist */,
+			);
+			path = BaiTapKhoaHocOlineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846E95A12537E1AF0050F8C1 /* BaiTapKhoaHocOline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846E95CC2537E1B10050F8C1 /* Build configuration list for PBXNativeTarget "BaiTapKhoaHocOline" */;
+			buildPhases = (
+				846E959E2537E1AF0050F8C1 /* Sources */,
+				846E959F2537E1AF0050F8C1 /* Frameworks */,
+				846E95A02537E1AF0050F8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiTapKhoaHocOline;
+			productName = BaiTapKhoaHocOline;
+			productReference = 846E95A22537E1AF0050F8C1 /* BaiTapKhoaHocOline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846E95B72537E1B10050F8C1 /* BaiTapKhoaHocOlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846E95CF2537E1B10050F8C1 /* Build configuration list for PBXNativeTarget "BaiTapKhoaHocOlineTests" */;
+			buildPhases = (
+				846E95B42537E1B10050F8C1 /* Sources */,
+				846E95B52537E1B10050F8C1 /* Frameworks */,
+				846E95B62537E1B10050F8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846E95BA2537E1B10050F8C1 /* PBXTargetDependency */,
+			);
+			name = BaiTapKhoaHocOlineTests;
+			productName = BaiTapKhoaHocOlineTests;
+			productReference = 846E95B82537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846E95C22537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846E95D22537E1B10050F8C1 /* Build configuration list for PBXNativeTarget "BaiTapKhoaHocOlineUITests" */;
+			buildPhases = (
+				846E95BF2537E1B10050F8C1 /* Sources */,
+				846E95C02537E1B10050F8C1 /* Frameworks */,
+				846E95C12537E1B10050F8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846E95C52537E1B10050F8C1 /* PBXTargetDependency */,
+			);
+			name = BaiTapKhoaHocOlineUITests;
+			productName = BaiTapKhoaHocOlineUITests;
+			productReference = 846E95C32537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846E959A2537E1AF0050F8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mrCanTro;
+				TargetAttributes = {
+					846E95A12537E1AF0050F8C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					846E95B72537E1B10050F8C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 846E95A12537E1AF0050F8C1;
+					};
+					846E95C22537E1B10050F8C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 846E95A12537E1AF0050F8C1;
+					};
+				};
+			};
+			buildConfigurationList = 846E959D2537E1AF0050F8C1 /* Build configuration list for PBXProject "BaiTapKhoaHocOline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846E95992537E1AF0050F8C1;
+			productRefGroup = 846E95A32537E1AF0050F8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846E95A12537E1AF0050F8C1 /* BaiTapKhoaHocOline */,
+				846E95B72537E1B10050F8C1 /* BaiTapKhoaHocOlineTests */,
+				846E95C22537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846E95A02537E1AF0050F8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E95B22537E1B00050F8C1 /* LaunchScreen.storyboard in Resources */,
+				846E95AF2537E1B00050F8C1 /* Assets.xcassets in Resources */,
+				846E95AD2537E1AF0050F8C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E95B62537E1B10050F8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E95C12537E1B10050F8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846E959E2537E1AF0050F8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E95AA2537E1AF0050F8C1 /* ViewController.swift in Sources */,
+				846E95A62537E1AF0050F8C1 /* AppDelegate.swift in Sources */,
+				846E95A82537E1AF0050F8C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E95B42537E1B10050F8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E95BD2537E1B10050F8C1 /* BaiTapKhoaHocOlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E95BF2537E1B10050F8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E95C82537E1B10050F8C1 /* BaiTapKhoaHocOlineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846E95BA2537E1B10050F8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846E95A12537E1AF0050F8C1 /* BaiTapKhoaHocOline */;
+			targetProxy = 846E95B92537E1B10050F8C1 /* PBXContainerItemProxy */;
+		};
+		846E95C52537E1B10050F8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846E95A12537E1AF0050F8C1 /* BaiTapKhoaHocOline */;
+			targetProxy = 846E95C42537E1B10050F8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846E95AB2537E1AF0050F8C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846E95AC2537E1AF0050F8C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846E95B02537E1B00050F8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846E95B12537E1B00050F8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846E95CA2537E1B10050F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846E95CB2537E1B10050F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846E95CD2537E1B10050F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV9ZF8SB5U;
+				INFOPLIST_FILE = BaiTapKhoaHocOline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrCanTro.BaiTapKhoaHocOline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846E95CE2537E1B10050F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV9ZF8SB5U;
+				INFOPLIST_FILE = BaiTapKhoaHocOline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrCanTro.BaiTapKhoaHocOline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846E95D02537E1B10050F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV9ZF8SB5U;
+				INFOPLIST_FILE = BaiTapKhoaHocOlineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrCanTro.BaiTapKhoaHocOlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiTapKhoaHocOline.app/BaiTapKhoaHocOline";
+			};
+			name = Debug;
+		};
+		846E95D12537E1B10050F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV9ZF8SB5U;
+				INFOPLIST_FILE = BaiTapKhoaHocOlineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrCanTro.BaiTapKhoaHocOlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiTapKhoaHocOline.app/BaiTapKhoaHocOline";
+			};
+			name = Release;
+		};
+		846E95D32537E1B10050F8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV9ZF8SB5U;
+				INFOPLIST_FILE = BaiTapKhoaHocOlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrCanTro.BaiTapKhoaHocOlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaiTapKhoaHocOline;
+			};
+			name = Debug;
+		};
+		846E95D42537E1B10050F8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV9ZF8SB5U;
+				INFOPLIST_FILE = BaiTapKhoaHocOlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mrCanTro.BaiTapKhoaHocOlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaiTapKhoaHocOline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846E959D2537E1AF0050F8C1 /* Build configuration list for PBXProject "BaiTapKhoaHocOline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E95CA2537E1B10050F8C1 /* Debug */,
+				846E95CB2537E1B10050F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846E95CC2537E1B10050F8C1 /* Build configuration list for PBXNativeTarget "BaiTapKhoaHocOline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E95CD2537E1B10050F8C1 /* Debug */,
+				846E95CE2537E1B10050F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846E95CF2537E1B10050F8C1 /* Build configuration list for PBXNativeTarget "BaiTapKhoaHocOlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E95D02537E1B10050F8C1 /* Debug */,
+				846E95D12537E1B10050F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846E95D22537E1B10050F8C1 /* Build configuration list for PBXNativeTarget "BaiTapKhoaHocOlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E95D32537E1B10050F8C1 /* Debug */,
+				846E95D42537E1B10050F8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846E959A2537E1AF0050F8C1 /* Project object */;
+}
